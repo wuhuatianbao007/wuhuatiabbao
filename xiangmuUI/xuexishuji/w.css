@@ -1,0 +1,10 @@
+﻿.stage{width:900px;margin:10px auto;perspective:900px;
+    -moz-perspective:900px;-webkit-perspective:900px;-o-perspective:900px;}
+.stage>div{position:relative;width:100%;transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;transition:all 1s ease;
+    -moz-transition:all 1s ease;-webkit-transition:all 1s ease;
+    -o-transition:all 1s ease;}
+.stage img{position:absolute;width:170px;top:50px;left:0;right:0;margin:0 auto;cursor: pointer}
+
+

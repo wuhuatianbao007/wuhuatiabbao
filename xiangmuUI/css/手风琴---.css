@@ -1,0 +1,70 @@
+
+/*S---手风琴开始*/
+.acc{
+    /*background-color: #3ccc59;*/
+    margin-top: 20px;
+    height: 260px;
+    width: 100%;
+}
+.acc-middle{
+    /*background-color: #0099FF;*/
+    height: 420px;
+    width: 1190px;
+}
+.acc-ul{
+    height: 420px;
+    width: 1200px;
+    overflow: hidden;
+}
+.acc-ul li{
+    float: left;
+    width: 170px;
+    height: 420px;
+    cursor: pointer;
+    position: relative;
+}
+.acc-background-1{
+    background: url("../images/word-img/13.png");
+}
+.acc-background-2{
+    background: url("../images/word-img/03.png");
+}
+.acc-background-3{
+    background: url("../images/word-img/04.png");
+}
+.acc-background-4{
+    background: url("../images/word-img/20.png");
+}
+.acc-background-5{
+    background: url("../images/word-img/17.png");
+}
+.acc-background-6{
+    background: url("../images/word-img/07.png");
+}
+.acc-background-7{
+    background: url("../images/word-img/08.png");
+}
+.acc-auto{
+    width: 100%;
+    height: 100%;
+}
+.acc-title{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+}
+.acc-title h3{
+    width: 10px;
+    margin: 0 auto;
+    display: block;
+    font: 40px/40px Microsoft Yahei;
+    position: relative;
+    padding: 30px 0 0 0;
+    color:#FFFFFD;
+}
+
+/*E---手风琴开始*/

@@ -1,0 +1,60 @@
+﻿/*
+author:chenlijian;
+design:huangjunkai;
+update:2015-10-16;
+*/
+.header{position: absolute;top: 0;left: 0;width: 100%;+zoom: 1;z-index: 10;height: 85px;}
+.header .head{width: 100%;height: 100%;position: relative;}
+.header .logo{float: left;margin: 12px 0 0 35px;width: 142px;height: 64px;font-size: 0;line-height: 0;text-indent: -9999px;}
+.header .logo a{display: block;width: 100%;height: 100%;position: relative;}
+.header .logo a img{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.header .nav_box{position: absolute;top: 23px;right: 0;height: 30px;line-height: 30px;+zoom: 1;}
+.header .nav_list li{float: left;padding: 0 13px;}
+.header .nav_list a{display: block;width: 48px;font-size: 16px;color:#343434;text-align: center;}
+.header .nav_list a:hover{text-decoration: none;}
+.header .nav_box .ic_line{display: none;position: absolute;width: 48px;height: 2px;bottom: -2px;left: 13px;font-size: 0;line-height: 0;transition: left .2s;-webkit-transition: left .2s;}
+.h_black .logo a .w_logo{left: -9999px;}
+.h_black .nav_list a{color:#343434;}
+.h_black .nav_box .ic_line{background: #191919;}
+.h_white .logo a .b_logo{left: -9999px;}
+.h_white .nav_list a{color:#fff;}
+.h_white .nav_box .ic_line{background: #fff;}
+
+.h_index .head{width: 1200px;margin: 0 auto;}
+
+/*.footer{background: #f6f6f6;width: 100%;}
+.footer .foot{background: #f6f6f6;width: 1200px;margin: 0 auto;text-align: center;line-height: 26px;color:#a4a4a4;padding: 45px 0 24px;}
+.footer .foot a{color:#a4a4a4;}
+.footer .partner_box{font-size: 0;line-height: 0;color:#6f6f6f;margin-bottom: 10px;}
+.footer .partner_box dt,.footer .partner_box dd{display: inline-block;+display: inline;+zoom: 1;font-size: 15px;line-height: 26px;}
+.footer .partner_box dd{padding: 0 9px;}
+.footer .partner_box dd a{color:#6f6f6f;}*/
+
+
+.footer{position: relative;width: 100%;bottom: 0;left: 0;z-index: 99;text-align: center;background: #9a9d9d;position: relative;padding-bottom: 15px;}
+.footer .opc_bg{position: absolute;top: 0;left: 0;width: 100%;height: 100%;_height: 91px;}
+.footer .foot{line-height: 20px;position: relative;margin: 0 auto;color:#b2b2b2;padding: 3px 0 6px;}
+.footer .links a{color:#b2b2b2;}
+.footer .safe_links{font-size: 0;line-height: 0;margin-top: 5px;}
+.footer .safe_links a{display: inline-block;+display: inline;+zoom: 1;color:#999;position: relative;width: 67px;font-size: 12px;line-height: 14px;height: 28px;padding: 5px 0 5px 40px;border: 1px solid #808080;position: relative;+zoom: 1;margin: 0 7px;}
+.footer .safe_links a img{position: absolute;top: 0;left: 0;width: 40px;height: 38px;}
+
+.footer .follow_box{padding-top: 45px;text-align: center;}
+.footer .txt_follow{font-size: 16px;color:#ffffff;line-height: 24px;}
+.footer .follow_list{font-size: 0;line-height: 0;margin-top: 18px;text-align: center;+zoom: 1;}
+.footer .follow_list a{display: inline-block;+display: inline;+zoom: 1;width: 50px;height: 51px;background-image: url('../images/follow_spr.png');margin: 0 10px;position: relative;}
+.footer .follow_list .code_box{position: absolute;width: 110px;height: 110px;padding: 10px;background: #fff;border-radius: 4px;left: -9999px;margin-left: -65px;bottom: 70px;opacity: 0;transition: opacity .2s;-webkit-transition: opacity .2s;}
+.footer .follow_list a:hover .code_box{left: 50%;opacity: 1;}
+.footer .follow_list .code_box .ic_arr{font-size: 0;line-height: 0;position: absolute;width: 0;height: 0;border-width: 8px;border-style: solid dashed dashed dashed;border-color: #fff transparent transparent transparent;left: 50%;margin-left: -8px;top: 100%;}
+.footer .follow_list .code_box img{display: block;height: 100%;height: 100%;}
+.footer .follow_list .wechat{background-position: 0 0;}
+.footer .follow_list .wechat:hover{background-position: 0 -72px;}
+.footer .follow_list .sina{background-position: -70px 0;}
+.footer .follow_list .sina:hover{background-position: -70px -72px;}
+.footer .follow_list .forum{background-position: -140px 0;}
+.footer .follow_list .forum:hover{background-position: -140px -72px;}
+.footer .follow_list .post{background-position: -210px 0;}
+.footer .follow_list .post:hover{background-position: -210px -72px;}
+.footer .main_links a{font-size: 18px;color:#fff;margin: 0 15px;} 
+.main_links{padding: 50px 0 25px;}
+.footer .foot,.footer .links a{color:#f6f6f6;}

@@ -1,0 +1,612 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>UI中国-专业界面交互设计平台</title>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<script src="js/osSlider.js"></script>
+
+</head>
+
+<body>
+
+<!-- 顶部导航 -->
+
+<div class="top">
+  <div class="toper">
+  
+    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+    
+    <div class="nav">
+      <ul>
+        <li class="nav-li"><a href="index.html">首页</a></li>
+        <li><a href="work.html">作品</a></li>
+        <li>
+          <a href="exp.html" class="text-left nav-120">学习</a>
+          <dl class="nav-120"><dd><i></i><a href="#">专题</a></dd><dd><i></i><a href="#">教程</a></dd><dd><i></i><a href="#">书籍</a></dd></dl>
+        </li>
+        <li>
+          <a href="activity.html" class="text-left nav-80">活动</a>
+          <dl class="nav-80"><dd><i></i><a href="#">UTalk</a></dd><dd><i></i><a href="#">设计大赛</a></dd></dl>
+        </li>
+        <li><a href="job.html">招聘</a></li>
+        <li class="nav-new"><a href="peixun.html">培训</a></li>
+        <li>
+          <a href="move.html" class="text-left">更多</a>
+          <dl class="nav-160"><dd><i></i><a href="#">灵感</a></dd><dd><i></i><a href="#">工具</a></dd><dd><i></i><a href="#">话题</a></dd><dd><i></i><a href="#">主题学院</a></dd></dl>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="top-login">
+      <a href="login.html" class="top-head none"><img src="images/not-head.png"></a>
+      <div class="top-head">
+        <a href="user.html"><img src="images/head.png"></a>
+        <ul>
+          <li><a href="#">我的作品</a></li>
+          <li><a href="#">我的收藏</a></li>
+          <li><a href="#">我的简历</a></li>
+          <li><a href="#">修改资料</a></li>
+          <li><a href="#">退出登录</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="top-search">
+      <div class="top-search-left">
+        <span>设计作品</span>
+        <ul>
+          <li>设计作品</li>
+          <li>经验文章</li>
+          <li>源文件</li>
+          <li>设计狮</li>
+          <li>灵感</li>
+          <li>话题</li>
+        </ul>
+      </div>
+      <div class="top-search-right">
+        <input type="text" placeholder="请输入想要搜索的设计作品"><span></span>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- 顶部导航 end -->
+
+<!-- banner -->
+
+<div class="slider">
+  <ul class="slider-main">
+	<li><a href="#"><img src="images/banner/01.png"></a></li>
+	<li><a href="#"><img src="images/banner/02.png"></a></li>
+	<li><a href="#"><img src="images/banner/03.png"></a></li>
+	<li><a href="#"><img src="images/banner/04.png"></a></li>
+    <li><a href="#"><img src="images/banner/05.png"></a></li>
+	<li><a href="#"><img src="images/banner/06.png"></a></li>
+  </ul>
+</div>
+<script>
+var slider = new osSlider({ //开始创建效果
+  pNode:'.slider', //容器的选择器 必填
+  cNode:'.slider-main li', //轮播体的选择器 必填
+  speed:6000, //速度 默认3000 可不填写
+  autoPlay:true //是否自动播放 默认true 可不填写
+});
+</script>
+
+<!-- banner end -->
+
+<!-- main -->
+
+<div class="main">
+  <div class="main-top">
+    <div class="main-nav">
+      <a href="#" class="main-nav-a">首页推荐</a>
+      <a href="#">我的关注</a>
+      <a href="#">最新作品</a>
+    </div>
+    <div class="main-gg">
+      <span class="o1"><i>感谢有你，伴我一生，让我有勇气做我自已</i></span>
+      <span class="o0"><i>只有自己足够强大，才不会被别人践踏</i></span>
+      <span class="o0"><i>其实赖于基因技术，外加记忆（灵魂）转移，我们就可以永生啦</i></span>
+      <span class="o0"><i>一个正常人，每天至少要拥抱八次</i></span>
+      <span class="o0"><i>清除浏览器缓存</i></span>
+      <span class="o0"><i>UI中国招聘频道全新改版</i></span>
+    </div>
+  </div>
+  <div class="main-box">
+    <ul>
+      <li>
+        <img src="images/word-img/01.gif">
+        <a href="#" class="main-text"><span>设计目标：微创新、差异化、简洁美.设计分析：设计前期，分析了市面上主流的OS天气做法，发现天气的首页大多数都是动态背景+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/01.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">哈尔哥</a></div>
+        <div class="main-name"><a href="#">OS UI | 天气界面设计</a></div>
+        <div class="main-pic"><span title="浏览数">1873</span><span title="评论数">12</span><span title="点赞数">99</span><i>2015-11-19</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/02.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/02.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">陈出杰作</a></div>
+        <div class="main-name"><a href="#">从零开始掌握交互设计</a></div>
+        <div class="main-pic"><span title="浏览数">2716</span><span title="评论数">17</span><span title="点赞数">142</span><i>2015-11-27 </i></div>
+      </li>
+      <li>
+        <img src="images/word-img/03.png">
+        <a href="#" class="main-text"><span>探索者APP项目引导页面设计欣赏~项目还在开发中，敬请期待哦~</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/03.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">SA9527</a></div>
+        <div class="main-name"><a href="#">探索者APP引导页设计欣赏~</a></div>
+        <div class="main-pic"><span title="浏览数">2525</span><span title="评论数">16</span><span title="点赞数">110</span><i>2015-11-27</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/04.png">
+        <a href="#" class="main-text"><span>>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/04.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">linzi912</a></div>
+        <div class="main-name"><a href="#">掌阅iReader 5.2.0 海外版</a></div>
+        <div class="main-pic"><span title="浏览数">2550</span><span title="评论数">59</span><span title="点赞数">121</span><i>2015-11-26</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/05.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/05.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">绘x封</a></div>
+        <div class="main-name"><a href="#">2015作品集</a></div>
+        <div class="main-pic"><span title="浏览数">1779</span><span title="评论数">6</span><span title="点赞数">121</span><i>2015-11-24</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/06.png">
+        <a href="#" class="main-text"><span>未完。。做成明信片可好？</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/06.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">七媗_lea</a></div>
+        <div class="main-name"><a href="#"><Azalea>_ 孤独之梦</a></div>
+        <div class="main-pic"><span title="浏览数">2890</span><span title="评论数">17</span><span title="点赞数">131</span><i>2015-11-23</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/07.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/07.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">小白设计师</a></div>
+        <div class="main-name"><a href="#">前几个月做的一个APP</a></div>
+        <div class="main-pic"><span title="浏览数">3621</span><span title="评论数">16</span><span title="点赞数">96</span><i>2015-11-23</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/08.png">
+        <a href="#" class="main-text"><span>亲密360陪我的这段奇幻之旅不知不觉中已走了一年,总会忍不住回望来路.它的波折,它的坎坷时常让我迷茫,也让我知道我必须向前.现在,亲密360终于已经有了50万用户</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/08.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Junink</a></div>
+        <div class="main-name"><a href="#">亲密360</a></div>
+        <div class="main-pic"><span title="浏览数">5732</span><span title="评论数">34</span><span title="点赞数">129</span><i>2015-11-23</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/09.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/09.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">ricardo_jiang</a></div>
+        <div class="main-name"><a href="#">引导图</a></div>
+        <div class="main-pic"><span title="浏览数">4810</span><span title="评论数">14</span><span title="点赞数">146</span><i>2015-11-23</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/10.gif">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/10.gif"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Banlinda</a></div>
+        <div class="main-name"><a href="#">菜单图标</a></div>
+        <div class="main-pic"><span title="浏览数">3466</span><span title="评论数">21</span><span title="点赞数">138</span><i>2015-11-22</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/11.png">
+        <a href="#" class="main-text"><span>生活的压力，工作的忙碌，快节奏的城市生活，让我们没来得及做完手上事，就要准备下一项“命运”的安排，仿佛冥冥中我们都早已习惯了在如此固定的路线上一条路走到黑，直到，时过境迁，才顿感“吾已老矣”，恍然发现···</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/11.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Fr_黑白线</a></div>
+        <div class="main-name"><a href="#">Assault motion APP</a></div>
+        <div class="main-pic"><span title="浏览数">6393</span><span title="评论数">45</span><span title="点赞数">255</span><i>2015-11-21</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/12.png">
+        <a href="#" class="main-text"><span>给公司app做的启动页</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/12.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">左边的朋友</a></div>
+        <div class="main-name"><a href="#">APP启动页之二十四节气</a></div>
+        <div class="main-pic"><span title="浏览数">4184</span><span title="评论数">10</span><span title="点赞数">139</span><i>2015-11-19</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/13.png">
+        <a href="#" class="main-text"><span>想做一个干净的纯粹的小场景来展示天气的变化。</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/13.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Cardist</a></div>
+        <div class="main-name"><a href="#">天气插件『The Q Town』</a></div>
+        <div class="main-pic"><span title="浏览数">2905</span><span title="评论数">83</span><span title="点赞数">213</span><i>2015-11-19</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/14.png">
+        <a href="#" class="main-text"><span>绿茶浏览器6.5引导页</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/14.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">UG84</a></div>
+        <div class="main-name"><a href="#">绿茶浏览器6.5引导页</a></div>
+        <div class="main-pic"><span title="浏览数">3189</span><span title="评论数">10</span><span title="点赞数">122</span><i>2015-11-16</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/15.png">
+        <a href="#" class="main-text"><span>做CMS对UI设计师来说还是有用的，可以学习到很多交互上、使用上的东西。一步步的总结经验，很享受过程（其实也就一天半...然后飞机了..）因为有了现成的框架，就不需要我这里再出UI的，于是乎喜闻乐见的飞机稿...</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/15.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">MoeCY</a></div>
+        <div class="main-name"><a href="#">[Web]人生就是折腾不止。Ximalaya CMS2.0</a></div>
+        <div class="main-pic"><span title="浏览数">2167</span><span title="评论数">14</span><span title="点赞数">49</span><i>2015-11-18</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/16.png">
+        <a href="#" class="main-text"><span>一款app的引导页，产品给完文案后，尝试用另外一种风格来诠释文字表达的意思。</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/16.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">LEILI</a></div>
+        <div class="main-name"><a href="#">又一组引导页</a></div>
+        <div class="main-pic"><span title="浏览数">3036</span><span title="评论数">20</span><span title="点赞数">155</span><i>2015-11-16</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/17.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/17.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">LYUHSAM</a></div>
+        <div class="main-name"><a href="#">SMART BOARD</a></div>
+        <div class="main-pic"><span title="浏览数">2756</span><span title="评论数">10</span><span title="点赞数">73</span><i>2015-11-16</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/18.png">
+        <a href="#" class="main-text"><span>——每一款应用都会日益趋于强大，伴随内容的增多，然并没有对已有功能进行相应的精简，每一款应用，人们可应用的范围都是有限的。——啰嗦，旨在竟可能减少多余操作步骤，更加直观快捷的去选取喜好...</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/18.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Fr_黑白线</a></div>
+        <div class="main-name"><a href="#">Tremble 电影APP，尝试风格</a></div>
+        <div class="main-pic"><span title="浏览数">3064</span><span title="评论数">24</span><span title="点赞数">106</span><i>2015-11-23</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/19.png">
+        <a href="#" class="main-text"><span>好久没发练习作品了，因为在尝试之前没怎么做过的。看过我之前作品的都知道大部分都是拟物化的，但是毕竟现在还是扁平比较流行～而且我也觉得各有各的特色，都很喜欢。练习了一阵之后也是发现扁平的难度一点也不比拟物的差。。。。</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/19.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">rwds</a></div>
+        <div class="main-name"><a href="#">06月-10月作品集</a></div>
+        <div class="main-pic"><span title="浏览数">2816</span><span title="评论数">33</span><span title="点赞数">233</span><i>2015-11-13</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/20.png">
+        <a href="#" class="main-text"><span>这是一款以推荐地方特色美食，提前预定餐位为主要功能的美食类APP，也是第一次尝试，由自己独立构思功能，制作原型图到完成设计的练习。虽然还有很多不足之处，但对自己来说也是一个全新的开始，未来的设计路上，我会更加努力~~</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/20.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">匚lynn</a></div>
+        <div class="main-name"><a href="#">寻味APP</a></div>
+        <div class="main-pic"><span title="浏览数">2880</span><span title="评论数">36</span><span title="点赞数">187</span><i>2015-11-14</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/21.png">
+        <a href="#" class="main-text"><span>这段日子一直在忙湖南驾考APP的项目开发，这是过稿的H5页面设计欣赏~大家可以在16年初通过安卓或苹果应用商城下载哦~</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/21.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">SA9527</a></div>
+        <div class="main-name"><a href="#">某某驾考APP2.0引导页面设计欣赏~</a></div>
+        <div class="main-pic"><span title="浏览数">4776</span><span title="评论数">22</span><span title="点赞数">212</span><i>2015-11-17</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/22.png">
+        <a href="#" class="main-text"><span>一个概念作品<br>通过阅读第一本书获得积分，换取阅读其他书的机会。<br>制定每日阅读计划，科学读书~</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/22.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Lios</a></div>
+        <div class="main-name"><a href="#">阅读类APP界面设计</a></div>
+        <div class="main-pic"><span title="浏览数">4767</span><span title="评论数">22</span><span title="点赞数">123</span><i>2015-11-15</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/23.png">
+        <a href="#" class="main-text"><span>周三了~发一波作品，顺带附上PSD，喜欢点赞啦~</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/23.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">Z一Jomes</a></div>
+        <div class="main-name"><a href="#">写实圆珠笔图标-只要2小时</a></div>
+        <div class="main-pic"><span title="浏览数">4572</span><span title="评论数">26</span><span title="点赞数">202</span><i>2015-11-11</i></div>
+      </li>
+      <li>
+        <img src="images/word-img/24.png">
+        <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+        <div class="main-head"><a href="#"><img src="images/user-head/24.png"></a></div>
+        <div class="main-tips"><span>原创</span><a href="#" class="main-user">关郁娇</a></div>
+        <div class="main-name"><a href="#">童颜有迹APP</a></div>
+        <div class="main-pic"><span title="浏览数">3436</span><span title="评论数">20</span><span title="点赞数">53</span><i>2015-11-10</i></div>
+      </li>
+    </ul>
+    
+  </div><div class="clear"></div>
+</div>
+
+<div class="main-page">
+  <ul>
+    <li><a href="#" class="main-page-left"></a></li>
+    <li><a href="#" class="main-page-on">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>...</li>
+    <li><a href="#">166</a></li>
+    <li><a href="#" class="main-page-right"></a></li>
+  </ul>
+</div>
+
+<!-- main end -->
+
+<!-- UI Design -->
+
+<div class="design">
+  <div class="design-bt"><span><i class="design-bt-i">推荐设计师</i><i style="margin-left:15px;">活跃设计师</i></span></div>
+  <div class="design-box">
+    <ul>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/01.png"></a>
+        <div class="design-txt">
+          <a href="#">Cardist</a>
+          <span>还没二够<br>不想奔三</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/02.png"></a>
+        <div class="design-txt">
+          <a href="#">陈出杰作</a>
+          <span>这个人很懒什么都没写！</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/03.png"></a>
+        <div class="design-txt">
+          <a href="#">SA9527</a>
+          <span>好好学习 天天向上 努力工作 报效祖国</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/04.png"></a>
+        <div class="design-txt">
+          <a href="#">linzi912</a>
+          <span>写点什么吧</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/05.png"></a>
+        <div class="design-txt">
+          <a href="#">绘x封</a>
+          <span>希望明天的我会感谢今天的自己</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/06.png"></a>
+        <div class="design-txt">
+          <a href="#">七媗_lea</a>
+          <span>这个人很懒什么都没写！</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/07.png"></a>
+        <div class="design-txt">
+          <a href="#">小白设计师</a>
+          <span>少壮不努力，长大做设计</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/08.png"></a>
+        <div class="design-txt">
+          <a href="#">Junink</a>
+          <span>资深切图仔一枚</span>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/13.png"></a>
+        <div class="design-txt">
+          <a href="#">Cardist</a>
+          <span>老板，要切图吗？买一斤送一斤~(´-ω-`)</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/14.png"></a>
+        <div class="design-txt">
+          <a href="#">UG84</a>
+          <span>Stay hungry. Stay foolish.</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/15.png"></a>
+        <div class="design-txt">
+          <a href="#">MoeCY</a>
+          <span>有梦想的年轻人。</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/16.png"></a>
+        <div class="design-txt">
+          <a href="#">LEILI</a>
+          <span>好好设计 天天学习</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/17.png"></a>
+        <div class="design-txt">
+          <a href="#">LYUHSAM</a>
+          <span>U KNOW WHO I M</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/18.png"></a>
+        <div class="design-txt">
+          <a href="#">Fr_黑白线</a>
+          <span>抹掉我的缺点，我的优点也将逝去。</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/19.png"></a>
+        <div class="design-txt">
+          <a href="#">rwds</a>
+          <span>https://dribbble.com/rwds</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="design-head"><img src="images/user-head/20.png"></a>
+        <div class="design-txt">
+          <a href="#">SA9527</a>
+          <span>好好学习 天天向上 努力工作 报效祖国</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- UI Design end -->
+
+<!-- line -->
+
+<div class="line">
+  <div class="line-bt"><i></i><span>合作伙伴</span></div>
+  <div class="line-box">
+    <ul>
+      <li><a href="#"><img src="images/line-01.png"></a></li>
+      <li><a href="#"><img src="images/line-02.png"></a></li>
+      <li><a href="#"><img src="images/line-03.png"></a></li>
+      <li><a href="#"><img src="images/line-04.png"></a></li>
+      <li><a href="#"><img src="images/line-05.png"></a></li>
+      <li><a href="#"><img src="images/line-06.png"></a></li>
+    </ul>
+  </div>
+  <div class="line-txt">
+    <a href="#">互动大师</a>
+    <a href="#">猎豹移动</a>
+    <a href="#">兔展</a>
+    <a href="#">we+H5</a>
+    <a href="#">内聘网</a>
+    <a href="#">创客贴</a>
+    <a href="#">优设</a>
+  </div>
+</div>
+
+<!-- line end -->
+
+<div class="clear"></div>
+
+<!-- footer -->
+
+<footer>
+  <div class="footer-ner">
+    <div class="footer-logo"><a href="index.html"><img src="images/logo.png"></a></div>
+    <div class="footer-box">
+      <div class="footer-nav">
+        <a href="#">商务合作</a>
+        <a href="#">意见反馈</a>
+        <a href="#">关于我们</a>
+        <a href="#">联系我们</a>
+        <a href="#">版权声明</a>
+        <a href="#">隐私保护</a>
+      </div>
+      <div class="footer-copy"><a href="#">京ICP备14007358号-1</a> / 京公网安备11010802014104号 / Powered by © 2008-2015 UI.CN</div>
+      <div class="footer-img">
+        <ul>
+          <li><a href="#"><img src="images/icon-wx.png"></a><span><img src="images/foot-wx.png"></span></li>
+          <li><a href="#"><img src="images/icon-wb.png"></a></li>
+          <li><a href="#"><img src="images/icon-qq.png"></a></li>
+        </ul>
+        <i><a href="#"><img src="images/hy_83x30.png"></a></i>
+        <i><a href="#"><img src="images/cnnic.png"></a></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- footer end  -->
+
+<!-- 侧边导航 -->
+
+<div class="float-menu">
+  <ul>
+    <li><a href="work.html" class="float-a"><img src="images/work-jpg.png"><span>上传<br>作品</span></a></li>
+    <li><a href="exp.html" class="float-a"><img src="images/work-text.png"><span>上传<br>经验</span></a></li>
+    <li>
+      <div class="float-a t-d"><img src="images/tips.png"><span>消息<br>提示</span><i></i></div>
+      <div class="float-box">
+        <dl>
+          <dt class="dian" title="私信"><i></i></dt>
+          <dt title="回复"><i></i></dt>
+          <dt title="收藏"><i></i></dt>
+          <dt title="点赞"><i></i></dt>
+          <dt title="关注"><i></i></dt>
+          <dt title="系统提示"><i></i></dt>
+        </dl>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+          <div class="float-line">
+            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+          </div>
+          <div class="float-line">
+            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+          </div>
+          <div class="float-line">
+            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+          </div>
+          <div class="float-line">
+            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+          </div>
+        </div>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+          <div class="float-line">
+            <span><a href="#">腾讯ISUX</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+          </div>
+          <div class="float-line">
+            <span><a href="#">iconsbox</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+          </div>
+          <div class="float-line">
+            <span><a href="#">我是个安静的美男子</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+          </div>
+          <div class="float-text"><input type="text" placeholder=""><span>发送</span></div>
+        </div>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+        </div>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+          <div class="float-line">
+            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+          </div>
+          <div class="float-line">
+            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+          </div>
+          <div class="float-line">
+            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+          </div>
+        </div>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+          <div class="float-line">
+            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+          </div>
+          <div class="float-line">
+            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+          </div>
+          <div class="float-line">
+            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+          </div>
+          <div class="float-line">
+            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+          </div>
+        </div>
+        <div class="float-info">
+          <a href="#" class="float-move">点击查看更多</a>
+          <div class="float-no">没有此类消息</div>
+        </div>
+      </div>
+    </li>
+    <li><a href="#" class="float-a go-top"><img src="images/go-top.png"><span>返回<br>顶部</span></a></li>
+  </ul>  
+</div>
+
+<!-- 侧边导航 end -->
+
+</body>
+</html>

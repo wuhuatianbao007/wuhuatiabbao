@@ -1,0 +1,562 @@
+    <!DOCTYPE html>
+    <html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>UI中国-专业界面交互设计平台</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+        <link rel="stylesheet" href="css/手风琴---.css"/>
+        <link rel="stylesheet" href="css/footer-mian1.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <script src="js/jquery-1.12.2.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/osSlider.js"></script>
+        <script src="js/osSlider.js"></script>
+        <script src="js/shoufengqin---.js"></script>
+    </head>
+    <body>
+    <!--S=顶部导航栏-->
+    <div class="bgBox">
+        <div class="logoBox">
+            <img src="images/logo.png" alt=""/>
+        </div>
+    </div>
+    <div class="top-nav">
+        <div class="top-nav-w w">
+             <div class="top-nav-logo fl">
+                 <a href="#">
+                     <img src="images/logo.png" width="36" height="40"/>
+                 </a>
+             </div>
+            <div class="nav">
+                <ul>
+                    <li class="nav-li"><a href="index.html">首页</a></li>
+                    <li><a href="#">作品</a></li>
+                    <li>
+                        <a href="baoUI.html" class="text-left nav-120">学习</a>
+                        <dl class="nav-120"><dd><i></i><a href="#">专题</a></dd><dd><i></i><a href="#">教程</a></dd><dd><i></i><a href="#">书籍</a></dd></dl>
+                    </li>
+                    <li>
+                        <a href="#" class="text-left nav-80">活动</a>
+                        <dl class="nav-80"><dd><i></i><a href="#">UTalk</a></dd><dd><i></i><a href="#">设计大赛</a></dd></dl>
+                    </li>
+                    <li><a href="#">招聘</a></li>
+                    <li class="nav-new"><a href="peixun.html">培训</a></li>
+                    <li>
+                        <a href="#" class="text-left">更多</a>
+                        <dl class="nav-160"><dd><i></i><a href="#">灵感</a></dd><dd><i></i><a href="#">工具</a></dd><dd><i></i><a href="#">话题</a></dd><dd><i></i><a href="#">主题学院</a></dd></dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-nav-search fr">
+                <div class="top-nav-search-left fl">
+                    <span>设计作品</span>
+                    <ul>
+                        <li>设计作品</li>
+                        <li>经验文章</li>
+                        <li>源文件</li>
+                        <li>设计狮</li>
+                        <li>灵感</li>
+                        <li>话题</li>
+                    </ul>
+                </div>
+                <div class="top-nav-search-right fl">
+                    <input type="text" placeholder="请输入您要搜索的设计作品"/><span></span>
+                </div>
+            </div>
+            <div class="top-nav-login">
+                <div class="boxImg">
+                    <img src="images/head.jpg" width="40" height="40" alt=""/>
+                </div>
+                <ul>
+                    <li class="lis1"><b></b>我的作品</li>
+                    <li class="lis2"><b></b>我的收藏</li>
+                    <li class="lis3"><b></b>我的简历</li>
+                    <li class="lis4"><b></b>修改资料</li>
+                    <li class="lis5"><b></b>退出登录</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--E=顶部导航栏-->
+
+    <!--S=轮播图部分-->
+    <div class="slider">
+        <ul class="slider-main">
+            <li><a href="#"><img src="images/banner/01.png"></a></li>
+            <li><a href="#"><img src="images/banner/02.png"></a></li>
+            <li><a href="#"><img src="images/banner/03.png"></a></li>
+            <li><a href="#"><img src="images/banner/04.png"></a></li>
+            <li><a href="#"><img src="images/banner/05.png"></a></li>
+            <li><a href="#"><img src="images/banner/06.png"></a></li>
+        </ul>
+    </div>
+    <script>
+        var slider = new osSlider({ //开始创建效果
+            pNode:'.slider', //容器的选择器 必填
+            cNode:'.slider-main li', //轮播体的选择器 必填
+            speed:6000, //速度 默认3000 可不填写
+            autoPlay:true //是否自动播放 默认true 可不填写
+        });
+    </script>
+    <!--E=轮播图部分-->
+
+    <!--S=首页内容部分-->
+    <div class="main w">
+        <div class="main-top">
+            <div class="main-top-nav fl">
+                <a href="#" class="main-top-nav-a1">首页推荐</a>
+                <a href="#" class="main-top-nav-a2">我的关注</a>
+                <a href="#" class="main-top-nav-a2">最新作品</a>
+            </div>
+            <div class="main-gg fr">
+                <span class="s0 sh"><i>感谢有你，伴我一生，让我有勇气做我自已</i></span>
+                <span class="s1"><i>只有自己足够强大，才不会被别人践踏</i></span>
+                <span class="s2"><i>其实赖于基因技术，外加记忆（灵魂）转移，我们就可以永生啦</i></span>
+                <span class="s3"><i>一个正常人，每天至少要拥抱八次</i></span>
+                <span class="s4"><i>清除浏览器缓存</i></span>
+                <span class="s5"><i>UI中国招聘频道全新改版</i></span>
+            </div>
+        </div>
+        <div class="main-middle clearfix">
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/01.gif" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <!--图片阴影遮挡层-->
+                <a href="#" class="main-text"><span>设计目标：微创新、差异化、简洁美.设计分析：设计前期+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+                <!--头像部分-->
+                <div class="p">
+                    <img src="images/user-head/01.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">哈尔盖</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">OS UI | 天气界面设计</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">1873</span>
+                    <span title="评论数" class="sp2">12</span>
+                    <span title="点赞数" class="sp3">99</span>
+                    <i>2015-11-19</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/02.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>设计前期，的首页大多数都是动态背景+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/02.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">哈利波特</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">从零开始掌握交互设计</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">3453</span>
+                    <span title="评论数" class="sp2">34</span>
+                    <span title="点赞数" class="sp3">143</span>
+                    <i>2015-10-01</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/03.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>设计目标：微创新、差异化、简洁美.设计分析：设计前期，分析了市面上主流的OS天气做法，发现天气的首页大多数都是动态背景+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/03.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">威尔史密斯</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">探索者APP引导页设计欣赏~</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">2345</span>
+                    <span title="评论数" class="sp2">422</span>
+                    <span title="点赞数" class="sp3">45</span>
+                    <i>2016-4-21</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/04.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>让阅读成为一种风尚<br>——《小编字》</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/04.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">Banlinda</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">掌阅iReader 5.2.0 海外版</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">3567</span>
+                    <span title="评论数" class="sp2">324</span>
+                    <span title="点赞数" class="sp3">53</span>
+                    <i>2016-6-01</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/06.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>分析了市面上主流的OS天气做法，发现天气的首页大多数都是动态背景+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/06.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">jack</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">_ 孤独之梦</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">1237</span>
+                    <span title="评论数" class="sp2">124</span>
+                    <span title="点赞数" class="sp3">132</span>
+                    <i>2016-7-21</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/07.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>设计目标：微创新、差异化、简洁美.设计分析：设计前期，分析了市面上主流的OS天气做法，发现天气的首页大多数都是动态背景+一周实时天气的呈现方式。</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/07.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">Banlinda</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">前几个月做的一个APP</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">2343</span>
+                    <span title="评论数" class="sp2">343</span>
+                    <span title="点赞数" class="sp3">232</span>
+                    <i>2016-8-11</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/08.png" width="285" height="231" alt=""/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/08.png" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">原创小白设计师</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">亲密360</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">5453</span>
+                    <span title="评论数" class="sp2">234</span>
+                    <span title="点赞数" class="sp3">453</span>
+                    <i>2016-5-12</i>
+                </div>
+            </div>
+
+            <div class="main-middle-box fl">
+                <div class="main-middle-box-img">
+                    <a href="#">
+                        <img src="images/word-img/10.gif" width="285" height="231" alt="" id="im"/>
+                    </a>
+                </div>
+                <a href="#" class="main-text"><span>作者太懒、什么都没有写<br>——《小编字》</span><i>&nbsp;</i></a>
+                <div class="p">
+                    <img src="images/user-head/10.gif" width="65" height="65" alt=""/>
+                </div>
+                <div class="userName">
+                    <div class="userName-left fl">原创</div>
+                    <a href="#">Banlinda</a>
+                </div>
+                <div class="content-title">
+                    <a href="#">菜单图标</a>
+                </div>
+                <div class="content-tips">
+                    <span title="浏览数" class="sp1">3567</span>
+                    <span title="评论数" class="sp2">324</span>
+                    <span title="点赞数" class="sp3">53</span>
+                    <i>2016-6-01</i>
+                </div>
+            </div>
+        </div>
+
+      <div class="middle-navge">
+
+          <div class="main-top">
+              <div class="main-top-nav fl">
+                  <a href="#" class="main-top-nav-a1">优秀作品</a>
+                  <a href="#" class="main-top-nav-a2">最新作品</a>
+                  <a href="#" class="main-top-nav-a2">首页推荐</a>
+              </div>
+
+          </div>
+
+        <!--手风琴开始-->
+        <div class="acc ">
+            <div class="acc-middle w">
+                <ul class="acc-ul" id="uuu">
+                    <li><a href="#">
+                        <div class="acc-title"><h3>作品展示</h3></div>
+                        <div class="acc-background-1 acc-auto"></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="acc-title"><h3>瀑布流</h3></div>
+                        <div class="acc-background-2 acc-auto"></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="acc-title"><h3>开屏样式</h3></div>
+                        <div class="acc-background-3 acc-auto"></div>
+                    </a></li>
+                    <li><a href="main.html">
+                        <div class="acc-title"><h3>作品展示</h3></div>
+                        <div class="acc-background-4 acc-auto"></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="acc-title"><h3>作品展示</h3></div>
+                        <div class="acc-background-5 acc-auto"></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="acc-title"><h3>作品展示</h3></div>
+                        <div class="acc-background-6 acc-auto"></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="acc-title"><h3>作品展示</h3></div>
+                        <div class="acc-background-7 acc-auto"></div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--手风琴结束-->
+    </div>
+  </div>
+    <!--E=首页内容部分-->
+
+    <!--S=设计师介绍部分-->
+    <div class="w">
+        <!--S--footer-line   合作伙伴  -->
+        <div class="footer-line w">
+            <span>合作伙伴</span>
+            <i class="footer-line-i"></i>
+        </div>
+        <!--E--footer-line   合作伙伴 -->
+        <!--S--footer-line-box   染色logo  -->
+        <div class="footer-line-box w">
+            <ul>
+                <li>
+                    <a href="#"  class="footer-line-box-1">
+                        <!--<img src="images/line-01.png" alt=""/>-->
+                    </a>
+                    <!--<div footer-line-box-xia>-->
+                    <!--<img src="images/line-1.png" alt=""/>-->
+                    <!--</div>-->
+                </li>
+                <li><a href="" class="footer-line-box-2"></a></li>
+                <li><a href="" class="footer-line-box-3"></a></li>
+                <li><a href="" class="footer-line-box-4"></a></li>
+                <li><a href="" class="footer-line-box-5"></a></li>
+                <li><a href="" class="footer-line-box-6"></a></li>
+            </ul>
+        </div>
+        <!--E--footer-line-box   染色logo  -->
+        <!--S--footer-line-text   合作伙伴介绍 -->
+        <div class="footer-line-text">
+            <a href="#">互动大师</a>
+            <a href="#">猎豹移动</a>
+            <a href="#">兔展</a>
+            <a href="#">we+H5</a>
+            <a href="#">内聘网</a>
+            <a href="#">创客贴</a>
+            <a href="#">优设</a>
+        </div>
+    </div>
+    <!--E--footer-line-text   合作伙伴介绍 -->
+    <!--S--footer-nav   合作friend-->
+    <div class="footer-nav">
+        <div class="footer-nav-ui w">
+            <div class="footer-nav-ui-img">
+                <img src="images/logo.png" alt=""/>
+            </div>
+            <div class="footer-nav-ui-link">
+                <div class="footer-nav-ui-link-a">
+                    <a href="#">商务合作</a>
+                    <a href="#">意见反馈</a>
+                    <a href="#">关于我们</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">版权声明</a>
+                    <a href="#">隐私保护</a>
+                </div>
+                <div class="footer-nav-ui-link-police">
+                    <p>京ICP备14007358号-1/ 京公网安备11010802014104号 / Powered by © 2008-2015 UI.CN</p>
+                </div>
+                <div class="footer-nav-ui-link-logo">
+                    <ul>
+                        <li><a href="#"><img src="images/icon-wx.png" class="footer-nav-ui-link-logo-1"/></a></li>
+                        <li><a href="#"><img src="images/icon-wb.png" class="footer-nav-ui-link-logo-1"/></a></li>
+                        <li><a href="#"><img src="images/icon-qq.png" class="footer-nav-ui-link-logo-1"/></a></li>
+                        <li><a href="#"><img src="images/hy_83x30.png" class="footer-nav-ui-link-logo-2"/></a></li>
+                        <li><a href="#"><img src="images/cnnic.png" class="footer-nav-ui-link-logo-2"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-nav-ui-ma">
+                <!--<img src="images/foot-wx.png" alt="" style="height: ;ight: 60px width:60px"/>-->
+            </div>
+
+        </div>
+
+    </div>
+    <!--D--footer-nav   合作friend-->
+
+
+
+    <!-- 侧边导航 end -->
+    <div class="float-menu">
+        <ul>
+            <li><a href="work.html" class="float-a"><img src="images/work-jpg.png"><span>上传<br>作品</span></a></li>
+            <li><a href="exp.html" class="float-a"><img src="images/work-text.png"><span>上传<br>经验</span></a></li>
+            <li>
+                <div class="float-a t-d"><img src="images/tips.png"><span>消息<br>提示</span><i></i></div>
+                <div class="float-box">
+                    <dl>
+                        <dt class="dian" title="私信"><i></i></dt>
+                        <dt title="回复"><i></i></dt>
+                        <dt title="收藏"><i></i></dt>
+                        <dt title="点赞"><i></i></dt>
+                        <dt title="关注"><i></i></dt>
+                        <dt title="系统提示"><i></i></dt>
+                    </dl>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                        <div class="float-line">
+                            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+                        </div>
+                        <div class="float-line">
+                            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+                        </div>
+                        <div class="float-line">
+                            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+                        </div>
+                        <div class="float-line">
+                            <a href="#"><span><strong>UI中国管理员 - 小U妹</strong> 私信你了,快去看看吧!</span><i>11/18 15:33</i></a>
+                        </div>
+                    </div>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                        <div class="float-line">
+                            <span><a href="#">腾讯ISUX</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">iconsbox</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">我是个安静的美男子</a>  回复了你在文章<a href="#">《面向设计的半封装web组件开发》</a>中的评论。</span><i>11/18 15:33</i><div class="float-hf">回复</div>
+                        </div>
+                        <div class="float-text"><input type="text" placeholder=""><span>发送</span></div>
+                    </div>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                    </div>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                        <div class="float-line">
+                            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">腾讯ISUX</a>赞了你的文章<a href="#">《面向设计的半封装web组件开发》</a></span><i>11/18 15:33</i>
+                        </div>
+                    </div>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                        <div class="float-line">
+                            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+                        </div>
+                        <div class="float-line">
+                            <span><a href="#">UI中国管理员 - 小U妹</a>关注了你</span><i>11/18 15:33</i>
+                        </div>
+                    </div>
+                    <div class="float-info">
+                        <a href="#" class="float-move">点击查看更多</a>
+                        <div class="float-no">没有此类消息</div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#" class="float-a go-top"><img src="images/go-top.png"><span>返回<br>顶部</span></a></li>
+        </ul>
+    </div>
+    <!-- 侧边导航 end -->
+    <!--E=footer部分-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+
+    <!--S=顶部导航栏-->
+    <!--E=顶部导航栏-->
+    </body>
+    </html>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin: 0px; padding: 0px; font-size: 14px; font-family: "微软雅黑"; }
+/*万能清除浮动开始*/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-table; } /* Hides from IE-mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.fl { float: left; }
+.fr { float: right; }
+ul { list-style: none; overflow: hidden; margin: 0px; padding: 0px; }
+a { color: #fff; text-decoration: none; }
+img { border: none; }
+
+/*左边部分 导航*/
+.index_left { width:22%; height: 100%; position: fixed; background: #5f6d7e; }
+.logo img{ width:300px;  height: 300px; }
+
+#nav_01 { background: #495461; }
+.nav { text-align: center;height:300px; overflow:hidden; }
+.nav ul li { height: 50px; line-height: 50px; overflow:hidden;}
+.nav ul li:hover { background: #495461;/* opacity:0.2;*/ }
+/*右边部分*/
+.index_right {width:78%; }
+.banner img ,.banner_n img{ width:100%; }
+.tel { margin-left:8px; font-size:12px; margin-top:10px; margin-bottom:10px;}
+.tel ul li{ float:left; padding:0px 8px;}
+.tel a{ color:#b3b5b8;}
+.tel a:hover{ color:#fff;}
+.tel_con { color:#b3b5b8; font-size:14px;}
+
+.main { width:96%;padding:0 2%;}
+
+

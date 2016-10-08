@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            width: 100%;
+            height: 768px;
+            background-color: #ccc;
+        }
+        .head-logo1 {
+            position: absolute;
+            left: 100px;
+            top: 200px;
+            float: left;
+            width: 500px;
+            height: 500px;
+            border: 2px #ccc solid;
+            text-align: center;
+            transform:rotate(-5deg);
+            transition:transform 2s;
+            border-radius: 50%;
+        }
+
+        .pub{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+        .head-logo1:hover{
+            transform: rotate(360deg);
+
+        }
+        .head-logo2 {
+            position: absolute;
+            left: 700px;
+            top: 200px;
+            float: left;
+            width: 500px;
+            height: 500px;
+            border: 2px #ccc solid;
+            text-align: center;
+            transform:rotate(-5deg);
+            transition:transform 2s;
+            border-radius: 50%;
+        }
+
+        .head-logo2:hover{
+            transform: rotate(360deg);
+
+        }
+
+        .active {
+            width:100px;
+            height:100px;
+            background: url(images/1.jpg) no-repeat;
+            border-radius: 50%;
+            position:relative;
+            left: 50px;
+            top: 50px;
+            animation-name:myfirst;
+            animation-duration:20s;
+            animation-timing-function:linear;
+            animation-delay:1s;
+            animation-iteration-count:20;
+            animation-direction:alternate;
+            animation-play-state:running;
+
+        }
+
+
+        @keyframes myfirst
+        {
+            0%   { background: url(images/1.jpg); left:50px; top:50px;}
+            25%  { background: url(images/2.jpg); left:1200px; top:50px;}
+            50%  { background: url(images/3.jpg); left:1200px; top:500px;}
+            75%  { background: url(images/4.jpg); left:50px; top:500px;}
+            100% { background: url(images/5.jpg); left:50px; top:50px;}
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="head">
+
+    <div class=" head-logo1">
+        <img src="images/2.jpg"  class="pub"/>
+    </div>
+    <div class=" head-logo2">
+        <img src="images/9.jpg" class="pub" />
+    </div>
+
+    <div class="active">
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+    <!DOCTYPE html>
+    <html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+            }
+            #main {
+                width: 100%;
+                height: 670px;
+                position:relative;
+                background: url("images/3.jpg");
+            }
+            #add {
+                width: 200px;
+                height: 200px;
+                position:absolute;
+                top:50%;
+                margin-top: -100px;
+                left: 50%;
+                margin-left: -100px;
+                border-radius: 50%;
+                background: url("images/1.jpg")center center;
+            }
+            li {
+                list-style: none;
+            }
+            
+            
+        </style>
+        <script src="jquery-1.12.2.js"></script>
+        <script>
+            $(function(){
+                var str = "<ul></ul>";
+                $("#main").append(str);
+                for(var i = 0;i < 5;i++){
+                    //创建li标签并放到ul标签中
+                     $("#main>ul").append('<li><img src="images/0'+(i+1)+'.jpg"/></li>');
+                    //给每个li标签动态添加id
+                     $("#main>ul>li").eq(i).attr("id","img"+i);
+                }
+                var wid = $(document).width()/2 -100;
+                $("#main>ul>li").css({
+                    "position":"absolute",
+                     "left":wid + "px",
+                      "top":"223px"
+                });
+                //
+                $("#main>ul").mouseenter(function(){
+                    $("#add").stop().animate({
+                       "width":"670px",
+                        "height":"670px",
+                        "margin-top":"-335px",
+                        "margin-left":"-335px"
+                    },500);
+                    $("#img0").stop().animate({
+                       "left":"343px",
+                        "top":"27px"
+                    },500);
+                    $("#img1").stop().animate({
+                        "left":"795px",
+                        "top":"37px"
+                    },500);
+                    $("#img2").stop().animate({
+                       "left":"763px",
+                        "top":"420px"
+                    },500);
+                    $("#img3").stop().animate({
+                       "left":"343px",
+                        "top":"416px"
+                    },500);
+                });
+                $("#main").mouseleave(function(){
+                    $("#main>ul>li").stop().animate({
+                        "left":wid + "px",
+                        "top":"223px"
+                    },500) ;
+                    $("#add").stop().animate({
+                        "width":"200px",
+                        "height":"200px",
+                        "margin-top":"-100px",
+                        "margin-left":"-100px"
+                    },500);
+                });
+            });
+            
+            
+            
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="add"></div>
+
+
+        </div>
+    </body>
+    </html>
